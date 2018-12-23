@@ -15,6 +15,7 @@
     "url": "http://github.com/http-auth/http-auth.git"
   },
   "main": "./src/http-auth.js",
+  "types": "./src/http-auth.d.ts",
   "licenses": [
     {
       "type": "MIT",
@@ -32,11 +33,16 @@
     "uuid": "^3.0.0"
   },
   "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/hapi": "^17.8.2",
+    "@types/koa": "^2.0.47",
+    "@types/node": "^10.12.18",
+    "@types/passport": "^0.4.7",
     "chai": "^3.5.0",
     "express": "^4.13.4",
+    "hapi": "^16.1.1",
     "http-proxy": "^1.13.3",
     "koa": "^1.2.0",
-    "hapi": "^16.1.1",
     "mocha": "^3.1.2",
     "passport": "^0.3.2",
     "request": "^2.72.0"
